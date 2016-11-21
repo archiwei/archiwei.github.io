@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Archiwei website</title>
+    <description>A virtual proof that name is awesome!</description>
+    <link>http://archiwei.github.io</link>
+    <atom:link href="http://archiwei.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>一个周六的早晨</title>
+        <description>
+          
+          还在学习怎么用github和jekyll做自己的网站。
+
+
+
+
+  
+    Trophy theme. Can be used for image blogging.
+  
+  
+    A online CV theme.
+  
+  
+    Project Pages theme.
+  
+  
+    Jekyll tips.
+  
+  
+    planet Jekyll.
+  
+  
+    Static map maker.
+  
+  
+    google font library.also check katydecorah.com site.
+  
+  
+    Podcast extension for Jekyll.
+  
+  
+    building a Jekyll site.
+  
+  
+    guide for Jekyll.
+  
+
+
+拷贝以前的帖子在上面修改。不停测试如何正确使用markdownxu语法。既然这么多喜欢只有它的道理。在不断试错中学习掌握了再说吧。
+
+
+        </description>
+        <pubDate>Sat, 12 Nov 2016 00:00:00 -0800</pubDate>
+        <link>http://archiwei.github.io/2016-11-12-saturday-morning/</link>
+        <guid isPermaLink="true">http://archiwei.github.io/2016-11-12-saturday-morning/</guid>
+      </item>
+    
+      <item>
+        <title>多年前想家的句子!</title>
+        <description>
+          
+          身在异国他乡，难免会想起从小生活过的地方，特别是大部分的亲人还生活在那里，不是有人老早老早老早就说过嘛，每逢那个佳节啊，思念是成几何级数的增长。这思念吧属于内心的一种活动，有时候说出来，有时候不能说出来，为啥呢，因为你想说的时候可能对方正在睡觉呢，把对方叫醒救为了听你说几句话也太不人道了。当然想说的话不说也不能憋着，这不，你可以写出来嘛。一个夜深人静的夜晚，我爬在凌乱的电脑桌上，歪歪扭扭写下了下面几行句子。那张纸不知是不是扔掉了，看能不能找出来也贴在这里。
+
+想家
+
+一个电话
+
+这头是我
+
+那头牵着她
+
+叫一声妈
+
+我是您的记挂
+
+您也是我的牵挂
+
+放下电话
+
+思念在子夜
+
+被深深触发
+
+这里有我家
+
+那里也是我的家
+
+坐在家里
+
+我
+
+默默地想家
+
+
+        </description>
+        <pubDate>Fri, 11 Nov 2016 00:00:00 -0800</pubDate>
+        <link>http://archiwei.github.io/2016-11-11-another-post-homesick/</link>
+        <guid isPermaLink="true">http://archiwei.github.io/2016-11-11-another-post-homesick/</guid>
+      </item>
+    
+      <item>
+        <title>Some links!</title>
+        <description>
+          
+          留着等几天来更新。
+
+
+
+Trophy theme. Can be used for image blogging.
+A online CV theme.
+Project Pages theme.
+Jekyll tips.
+planet Jekyll.
+Static map maker.
+google font library.also check katydecorah.com site.
+Podcast extension for Jekyll.
+building a Jekyll site.
+guide for Jekyll.
+
+        </description>
+        <pubDate>Sun, 06 Nov 2016 00:00:00 -0700</pubDate>
+        <link>http://archiwei.github.io/2016-11-06-some-links/</link>
+        <guid isPermaLink="true">http://archiwei.github.io/2016-11-06-some-links/</guid>
+      </item>
+    
+      <item>
+        <title>学一下markdown!</title>
+        <description>
+          
+          Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”。这种语言吸收了很多在电子邮件中已有的纯文本标记的特性。John Gruber 在 2004 年创造了 Markdown 语言，在语法上有很大一部分是跟 Aaron Swartz 共同合作的。这个语言的目的是希望大家使用“易于阅读、易于撰写的纯文字格式，并选择性的转换成有效的 XHTML (或是HTML)”。 其中最重要的设计是可读性，也就是说这个语言应该要能直接在字面上的被阅读，而不用被一些格式化指令标记 (像是 RTF 与 HTML)。 因此，它是现行电子邮件标记格式的惯例，虽然它也借镜了很多早期的标记语言，如：setext、Texile、reStructuredText。 许多网站都使用 Markdown 或是其变种，例如：GitHub、reddit、Diaspora、Stack Exchange、OpenStreetMap 与 SourceForge 让使用者更利于讨论。Markdown同时还是一个由Gruber编写的Perl脚本：Markdown.pl。它把用markdown语法编写的内容转换成有效的、结构良好的XHTML或HTML内容，并将左尖括号(‘&amp;lt;’)和&amp;amp;号替换成它们各自的字符实体引用。它可以用作单独的脚本，Blosxom和Movable Type的插件又或者BBEdit的文本过滤器. Markdown也已经被其他人用Perl和别的编程语言重新实现，其中一个Perl模块放在了CPAN上。它基于一个BSD风格的许可证分发并可以作为几个内容管理系统的插件。
+
+以上是wikipedia上摘录的。我的理解就是一种简单的写作语言。人机可读性好，可转换成Html，PDF等通用格式，可让人专心于写作，被专业作家，写手等广泛使用。
+
+下面是学习资料链接：
+
+在github上的markdown cheatsheet
+
+在github上的markdown cheatsheet PDF文档
+
+掌握markdown
+
+网上很多资源，搜索一下。关键要练习。各种格式在写作中用一下。无他，唯手熟尔。
+
+
+        </description>
+        <pubDate>Mon, 31 Oct 2016 00:00:00 -0700</pubDate>
+        <link>http://archiwei.github.io/2016-10-31-second-post-markdown/</link>
+        <guid isPermaLink="true">http://archiwei.github.io/2016-10-31-second-post-markdown/</guid>
+      </item>
+    
+      <item>
+        <title>用jekyll和github把网站建起来！</title>
+        <description>
+          
+          先把这些天学习的用jekyll在github上搭建网站的步骤记录下来，留作参考。 #安装jekyll 确定系统安装 Git, Ruby, RubyGems, Nodejs, Python2.7. 如何安装，狗狗一搜就可以。mac上基本自带，注意update一下到最新版本。 $ gem install jekyll bundler $ jekyll -v # 检查安装帮版本 $ jekyll new my-awesome-site $ cd my-awesome-site $ jekyll serve # =&amp;gt; Now browse to http://localhost:4000 通过jekyll serve -B启动服务，使用Rakefile创建文章，然后用自己喜欢的工具进行写作。 创作完成，通过jekyll build生成页面，本地localhost:4000查看文章。 #注册github账户 注意创建第一个仓库用 username.github.io 在用户名下再创建的仓库可类似于网站下的一个folder. SSH 配置 在用户目录（比如：C:/User/www）新建 .ssh 文件夹，或者通过 mkdir...
+        </description>
+        <pubDate>Sun, 30 Oct 2016 00:00:00 -0700</pubDate>
+        <link>http://archiwei.github.io/2016-10-30-Hello-World-first-post/</link>
+        <guid isPermaLink="true">http://archiwei.github.io/2016-10-30-Hello-World-first-post/</guid>
+      </item>
+    
+      <item>
+        <title>Flake it till you make it</title>
+        <description>
+          Excerpt from Soulshaping by Jeff Brown - 
+          Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who...
+        </description>
+        <pubDate>Thu, 26 Feb 2015 00:00:00 -0800</pubDate>
+        <link>http://archiwei.github.io/2015-02-26-flake-it-till-you-make-it/</link>
+        <guid isPermaLink="true">http://archiwei.github.io/2015-02-26-flake-it-till-you-make-it/</guid>
+      </item>
+    
+      <item>
+        <title>Test markdown</title>
+        <description>
+          Each post also has a subtitle - 
+          You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc. Here is some bold text Here is a...
+        </description>
+        <pubDate>Fri, 20 Feb 2015 00:00:00 -0800</pubDate>
+        <link>http://archiwei.github.io/2015-02-20-test-markdown/</link>
+        <guid isPermaLink="true">http://archiwei.github.io/2015-02-20-test-markdown/</guid>
+      </item>
+    
+      <item>
+        <title>To be</title>
+        <description>
+          ... or not to be? - 
+          To be, or not to be–that is the question: Whether ‘tis nobler in the mind to suffer The slings and arrows of outrageous fortune Or to take arms against a sea of troubles And by opposing end them. To die, to sleep– No more–and by a sleep to say we...
+        </description>
+        <pubDate>Fri, 13 Feb 2015 00:00:00 -0800</pubDate>
+        <link>http://archiwei.github.io/2015-02-13-hamlet-monologue/</link>
+        <guid isPermaLink="true">http://archiwei.github.io/2015-02-13-hamlet-monologue/</guid>
+      </item>
+    
+      <item>
+        <title>Dear diary</title>
+        <description>
+          
+          What is it with that Mary girl? Dragging me to school every day. As if I had a choice. What you don’t hear in those nursery rhymes is that she starves me if I don’t go to school with her; it’s the only way I can stay alive! I’m thinking...
+        </description>
+        <pubDate>Tue, 27 Jan 2015 00:00:00 -0800</pubDate>
+        <link>http://archiwei.github.io/2015-01-27-dear-diary/</link>
+        <guid isPermaLink="true">http://archiwei.github.io/2015-01-27-dear-diary/</guid>
+      </item>
+    
+      <item>
+        <title>Soccer</title>
+        <description>
+          Best sport ever! - 
+          From Wikipedia: Association football, more commonly known as football or soccer,[2] is a sport played between two teams of eleven players with a spherical ball. It is played by 250 million players in over 200 countries, making it the world’s most popular sport.[3][4][5][6] The game is played on a rectangular...
+        </description>
+        <pubDate>Mon, 19 Jan 2015 00:00:00 -0800</pubDate>
+        <link>http://archiwei.github.io/2015-01-19-soccer/</link>
+        <guid isPermaLink="true">http://archiwei.github.io/2015-01-19-soccer/</guid>
+      </item>
+    
+      <item>
+        <title>Pirates arrrr</title>
+        <description>
+          
+          Piracy is typically an act of robbery or criminal violence at sea. The term can include acts committed on land, in the air, or in other major bodies of water or on a shore. It does not normally include crimes committed against persons traveling on the same vessel as the...
+        </description>
+        <pubDate>Thu, 15 Jan 2015 00:00:00 -0800</pubDate>
+        <link>http://archiwei.github.io/2015-01-15-pirates/</link>
+        <guid isPermaLink="true">http://archiwei.github.io/2015-01-15-pirates/</guid>
+      </item>
+    
+      <item>
+        <title>First post!</title>
+        <description>
+          
+          This is my first post, how exciting!
+
+        </description>
+        <pubDate>Sun, 04 Jan 2015 00:00:00 -0800</pubDate>
+        <link>http://archiwei.github.io/2015-01-04-first-post/</link>
+        <guid isPermaLink="true">http://archiwei.github.io/2015-01-04-first-post/</guid>
+      </item>
+    
+  </channel>
+</rss>

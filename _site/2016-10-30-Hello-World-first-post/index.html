@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>用jekyll和github把网站建起来！</title>
+
+  <meta name="author" content="Archiwei" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Archiwei website - A virtual proof that name is awesome!" href="/feed.xml" />
+
+  
+    
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="用jekyll和github把网站建起来！" />
+  
+
+   
+  <meta property="og:description" content="先把这些天学习的用jekyll在github上搭建网站的步骤记录下来，留作参考。 #安装jekyll 确定系统安装 Git, Ruby, RubyGems, Nodejs, Python2.7. 如何安装，狗狗一搜就可以。mac上基本自带，注意update一下到最新版本。 $ gem install jekyll bundler $ jekyll -v # 检查安装帮版本 $ jekyll new my-awesome-site $ cd my-awesome-site $ jekyll serve # =&amp;gt; Now browse to http://localhost:4000 通过jekyll serve -B启动服务，使用Rakefile创建文章，然后用自己喜欢的工具进行写作。 创作完成，通过jekyll build生成页面，本地localhost:4000查看文章。 #注册github账户 注意创建第一个仓库用 username.github.io 在用户名下再创建的仓库可类似于网站下的一个folder. SSH 配置 在用户目录（比如：C:/User/www）新建 .ssh 文件夹，或者通过 mkdir...">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://archiwei.github.io/2016-10-30-Hello-World-first-post/" />
+  <link rel="canonical" href="http://archiwei.github.io/2016-10-30-Hello-World-first-post/" />
+  
+
+  
+  <meta property="og:image" content="http://archiwei.github.io/img/avatar-icon.png" />
+  
+  
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@archwei" />
+  <meta name="twitter:creator" content="@archwei" />
+
+  
+  <meta name="twitter:title" content="用jekyll和github把网站建起来！" />
+  
+
+  
+  <meta name="twitter:description" content="先把这些天学习的用jekyll在github上搭建网站的步骤记录下来，留作参考。 #安装jekyll 确定系统安装 Git, Ruby, RubyGems, Nodejs, Python2.7. 如何安装，狗狗一搜就可以。mac上基本自带，注意update一下到最新版本。 $ gem install jekyll bundler $ jekyll -v # 检查安装帮版本 $ jekyll new my-awesome-site $ cd my-awesome-site $ jekyll serve # =&amp;gt; Now browse to http://localhost:4000 通过jekyll serve -B启动服务，使用Rakefile创建文章，然后用自己喜欢的工具进行写作。 创作完成，通过jekyll build生成页面，本地localhost:4000查看文章。 #注册github账户 注意创建第一个仓库用 username.github.io 在用户名下再创建的仓库可类似于网站下的一个folder. SSH 配置 在用户目录（比如：C:/User/www）新建 .ssh 文件夹，或者通过 mkdir...">
+  
+
+  
+  <meta name="twitter:image" content="http://archiwei.github.io/img/avatar-icon.png" />
+  
+
+</head>
+
+
+  <body>
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://archiwei.github.io">Archiwei website</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+            
+
+
+
+
+
+<a href="/aboutme">About Me</a>
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Resources</a>
+            <div class="navlinks-children">
+              
+                
+                  
+            
+
+
+
+
+
+<a href="http://www.mkzg.com/">Suprise</a>
+
+                
+              
+                
+                  
+            
+
+
+
+
+
+<a href="http://www.markdowntutorial.com/">Learn markdown</a>
+
+                
+              
+                
+                  
+            
+
+
+
+
+
+<a href="https://pages.github.com/">GitHub Pages</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+            
+
+
+
+
+
+<a href="http://www.mkzg.com">Author's home</a>
+
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://archiwei.github.io ">
+	      <img class="avatar-img" src="/img/avatar-icon.png" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <h1>用jekyll和github把网站建起来！</h1>
+		  
+		  
+		  
+		  <span class="post-meta">Posted on October 30, 2016</span>
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+      <article role="main" class="blog-post">
+        <p>先把这些天学习的用jekyll在github上搭建网站的步骤记录下来，留作参考。</p>
+
+<p>#安装jekyll</p>
+
+<p>确定系统安装 Git, Ruby, RubyGems, Nodejs, Python2.7. 如何安装，狗狗一搜就可以。mac上基本自带，注意update一下到最新版本。</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ gem install jekyll bundler
+$ jekyll -v # 检查安装帮版本
+$ jekyll new my-awesome-site
+$ cd my-awesome-site
+$ jekyll serve
+# =&gt; Now browse to http://localhost:4000
+</code></pre>
+</div>
+
+<p>通过jekyll serve -B启动服务，使用Rakefile创建文章，然后用自己喜欢的工具进行写作。</p>
+
+<p>创作完成，通过jekyll build生成页面，本地localhost:4000查看文章。</p>
+
+<p>#注册github账户</p>
+
+<p>注意创建第一个仓库用 username.github.io 在用户名下再创建的仓库可类似于网站下的一个folder.</p>
+
+<h1 id="ssh-">SSH 配置</h1>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>在用户目录（比如：C:/User/www）新建 .ssh 文件夹，或者通过 mkdir .ssh 创建。
+cd .ssh，并执行 ssh-keygen -t rsa -C "your_email@example.com"。
+连续三次回车，可以不用输入内容。第一次是指写入的文件名，默认为 id_rsa，后两次为密码。
+将 .pub 后缀文件中的内容复制出来，登陆 GitHub，找到页顶的设置项，然后设置其中的 ssh 项，添加刚才复制的内容。
+</code></pre>
+</div>
+
+<h1 id="github">两种方式在github上搭建网站</h1>
+
+<ul>
+  <li>在本地建好网站，上传到github</li>
+  <li>从github上clone一个到本地，修改完传回</li>
+</ul>
+
+<h1 id="section">1. 本地创建</h1>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ mkdir my-site
+$ cd my-site
+$ git init # 初始建立本地git仓库
+$ git remote add origin git@github.com:username/username.github.io.git # 建立和远端仓库链接
+$ git pull # 最好先提取一下，不然可能会有问题
+$ echo "hello world" &gt;&gt; README.md # 创建第一个readme文件。或用其它方式在本地仓库创建网站内容。
+$ git add . # 把新增或改动加入缓冲
+$ git commit -m "first commit" # 提交到本地仓库
+$ git push -u origin master # 推送到远端， 这里是github网上仓库
+</code></pre>
+</div>
+
+<h1 id="section-1">2. 从远端克隆</h1>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ git clone https://github.com/username/username.github.com.git
+# 这个方法把远端仓库拷贝到本地，并建立一个username.github.com的目录。
+$ cd username.github.com
+# 在本地完成一些修改后创建新的网页或博客文章
+$ git add . # 把新增或改动加入缓冲
+$ git commit -m "revision" # 提交到本地仓库
+$ git push -u origin master # 推送到远端， 这里是github网上仓库
+</code></pre>
+</div>
+
+<p>新手可以找个喜欢的网站fork一下，再克隆到本地，修改之后传回github. 如直接克隆别人的网站，一定要记得要重新设定远端，设成自己的github仓库。</p>
+
+<h1 id="section-2">域名绑定</h1>
+
+<p>github上设置很简单，记得分支选master. 也可以自己添加CNAME文件。(别人那里克隆来的，记得修改成自己的域名）。</p>
+
+<p>二级域名在域名注册商那里修改A记录为：204.232.175.78 # 这可能会变，google找最新可用的IP地址</p>
+
+<p>三级域名或子域名可用CNAME设置。 如 www 指向 username.github.io 或 username.github.io/another-rep</p>
+
+<h1 id="git">一些git命令</h1>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>git init // 当前项目 git 化  
+git add . // 当前目录加入 git 跟踪  
+git add filename // 当前文件 filename 参加 git 跟踪  
+git commit -m "XXXX" // 提交信息，交给 git 经管，提交到本地库  
+git remote add origin git@github.com:XXXX/YYYY.git // 与 GitHub 上项目链接 (ssh 方式)  
+git push -u origin master // 将本地库提交到 GitHub 上，另一种是 gh-pages  
+git rm -rf directory // 删除库中指定文件夹 directory 所有内容  
+git rm filename // 删除库中指定文件 filename 内容   
+git clone git＠github.com:XXXX/YYYY.git // 将 GitHub 上的项目下载下来 
+git pull // 把服务器上的 “拉” 下来，与本地的合并
+</code></pre>
+</div>
+
+<h1 id="githttprogerdudlergithubiogit-guideindexzhhtml"><a href="http://rogerdudler.github.io/git-guide/index.zh.html">这里是git简明指南</a></h1>
+
+<p><img src="http://byte.kde.org/~zrusin/git/git-cheat-sheet-large.png" alt="git cheat sheet" /></p>
+
+<h1 id="jekyllhttpjekyllthemesorg"><a href="http://jekyllthemes.org">这里是jekyll的一些模版</a></h1>
+
+<h1 id="jekyll-tipshttpjekylltips"><a href="http://jekyll.tips">这里是jekyll tips网站</a></h1>
+
+<p><a href="https://github.com/barryclark/jekyll-now">Jekyll Now repository</a> on GitHub.</p>
+
+      </article>
+
+      
+        <div class="blog-tags">
+          Tags:
+          
+            jekyll,, github,, git,, 网站
+          
+        </div>
+      
+
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+
+  <!--- Share on Twitter -->
+  
+    <a href="https://twitter.com/intent/tweet?text=%E7%94%A8jekyll%E5%92%8Cgithub%E6%8A%8A%E7%BD%91%E7%AB%99%E5%BB%BA%E8%B5%B7%E6%9D%A5%EF%BC%81+http://archiwei.github.io/2016-10-30-Hello-World-first-post/"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fa fa-fw fa-twitter" aria-hidden="true"></span>
+    </a>
+  
+
+  <!--- Share on Facebook -->
+  
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http://archiwei.github.io/2016-10-30-Hello-World-first-post/"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fa fa-fw fa-facebook" aria-hidden="true"></span>
+    </a>
+  
+
+  <!--- Share on Google Plus -->
+  
+
+  <!--- Share on LinkedIn -->
+  
+
+</section>
+
+
+
+      
+
+      <ul class="pager blog-pager">
+        
+        <li class="previous">
+          <a href="/2015-02-26-flake-it-till-you-make-it/" data-toggle="tooltip" data-placement="top" title="Flake it till you make it">&larr; Previous Post</a>
+        </li>
+        
+        
+        <li class="next">
+          <a href="/2016-10-31-second-post-markdown/" data-toggle="tooltip" data-placement="top" title="学一下markdown!">Next Post &rarr;</a>
+        </li>
+        
+      </ul>
+
+      
+        <div class="disqus-comments">
+          
+
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+          <li>
+            <a href="https://www.facebook.com/archiwei" title="Facebook">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li>
+            <a href="https://github.com/archiwei" title="GitHub">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		  
+          <li>
+            <a href="https://twitter.com/archwei" title="Twitter">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+	  
+      
+		  
+          <li>
+            <a href="mailto:archiwei@gmail.com" title="Email me">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		  
+		  
+		  
+      
+      
+      
+      
+		  
+        </ul>
+        <p class="copyright text-muted">
+		  Archiwei
+		  &nbsp;&bull;&nbsp;
+		  2016
+
+		  
+		  &nbsp;&bull;&nbsp;
+		  <a href="http://archiwei.github.io">mkzg.com</a>
+		  
+	    </p>
+	        <!-- Please don't remove this, keep my open source work credited :) -->
+		<p class="theme-by text-muted">
+		  Theme by
+		  <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+		</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+
+
+  
+  </body>
+</html>
