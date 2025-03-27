@@ -4,7 +4,7 @@ title: 一个周六的早晨
 ---
 还在学习怎么用github和jekyll做自己的网站。
 
-![一张图片](https://yt3.ggpht.com/-0vxgKl3m7lM/AAAAAAAAAAI/AAAAAAAAAAA/Xv0t8IIjOo8/s900-c-k-no-mo-rj-c0xffffff/photo.jpg)
+
 
 - [Trophy theme. Can be used for image blogging](http://thomasvaeth.com/trophy/).
 
